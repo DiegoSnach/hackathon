@@ -104,15 +104,43 @@ In order to gain a better understanding of the different area types and their co
 
 #### 3. Industry and economy related data
 
+
+##### Business Confidence March/April 2020
+
+We have created two separate APIs for this data, which is concerned with survey responses from UK businesses at the onset of the pandemic. The data was initially gathered from the ONS Business Impact of Coronavirus survey and has been mapped to UK Business Counts data to generate a Business Risk metric. The first API (API Number 2), contains business counts according to survey response. The second that can be found (API Number 19) contains the Business Risk metric at a lower tier local authority level. The former API is the start point and the latter API is the end point of the following notebook which can be accessed [here] and used as a guide for working with this data.
+
+##### Occupations, Employment & Furlough Data
+
+The following APIs are available for use that contain information on the following:
+
+1) [Furlough Rates] (API Number 7) data gathered from the ONS Business Impact of Coronavirus survey updated throughout the pandemic.
+2) [UK Occupations] (API Number 9)
+3) [UK Occupations By Age] (API Number 8)
+4) [UK_Occupations By Ethnicity] (API Number 11)
+5) [UK Job Type By Industry] (API Number 10)
+6) [UK Public/Private Occupations] (API Number 12) Occupation count at Industry level split between public and private sector.
+
+An example notebook that incorporates all of this data can be found [here].
+
+##### UK Companies House Data
+
+This single API (API Number 1) contains a random sample of approximately 50,000 businesses across the UK which includes their SIC Code (sector/industry) as well as their name and address details.
+
 <details open>
 <summary><strong>Section 3 API details</strong></summary>
 <br>
   
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
-|           |             |          |          |
-|           |             |          |          |
-|           |             |          |          |
+|      1    |      GET    |  https://iqapi.azurewebsites.net/api/CompaniesHouseData         |    Dataset reporting on all UK companies registered with Companies House      |
+|      2    |      GET    |  https://iqapi.azurewebsites.net/api/BusinessConfidence         |    Enriched dataset reporting on relative business confidence across UK regions and business sectors, derived from workforce census data and ONS Covid-19 industry surveys
+|      19   |      GET    |  https://iqapi.azurewebsites.net/api/UKBusinessRiskLTLA         |    Enriched dataset - estimates of business risk by industry sector and age-group at a lower level Local Authority level      |
+|      7    |      GET    |  https://iqapi.azurewebsites.net/api/FurloughRate               |    Dataset reporting on furlough rates as reported periodically by the ONS throughout the pandemic
+|      9    |      GET    |  https://iqapi.azurewebsites.net/api/UKOccupations              |    Occupations groupings |
+|      8    |      GET    |  https://iqapi.azurewebsites.net/api/OccupationByAge            |    Occupations by age breakdown for England |
+|      11   |      GET    |  https://iqapi.azurewebsites.net/api/UkOccupationByEthnicity    |    Occupations by ethnicity |
+|      10   |      GET    |  https://iqapi.azurewebsites.net/api/UkJobTypeByIndustry        |    UK job types by industry group |
+|      12   |      GET    |  https://iqapi.azurewebsites.net/api/UKPublicPrivateOccupations |    Occupations by public/private split |
 
 </details>
 
