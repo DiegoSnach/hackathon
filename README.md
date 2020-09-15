@@ -147,9 +147,13 @@ This single API (API Number 1) contains a random sample of approximately 50,000 
 ### 4. GIS data
 
 GIS (Geographical Information Systems) data contains geometric information and can be used to draw maps. There were a number of GIS data sources we used and they are listed below:
-The geojson file found [here] was used in a lot of the work we carried out including the [business risk notebook] and the [furlough rates notebook]. It contains geometric data for the lower tier local authorities throughout the UK.
-The data found [here](https://datashare.is.ed.ac.uk/handle/10283/2546) was used in the [vaccine distribution notebook]. It is a shape file with LSOA boundaries for England and Wales.
-The [care homes notebook] used a shape file found [here](https://geoportal.statistics.gov.uk/datasets/b216b4c8a4e74f6fb692a1785255d777_0?geometry=-89.275%2C33.725%2C132.736%2C69.287). This link contains shape files for different types of areas within the UK.
+
+The geojson file found [here](https://coronavirus.data.gov.uk/cases) was used in a lot of the work we carried out including the [business risk notebook](https://coronavirus.data.gov.uk/cases) and the [furlough rates notebook](https://coronavirus.data.gov.uk/cases). It contains geometric data for the lower tier local authorities throughout the UK.
+
+The data found [here](https://datashare.is.ed.ac.uk/handle/10283/2546) was used in the [vaccine distribution notebook](https://coronavirus.data.gov.uk/cases). It is a shape file with LSOA boundaries for England and Wales.
+
+The [care homes notebook](https://coronavirus.data.gov.uk/cases) used a shape file found [here](https://geoportal.statistics.gov.uk/datasets/b216b4c8a4e74f6fb692a1785255d777_0?geometry=-89.275%2C33.725%2C132.736%2C69.287). This link contains shape files for different types of areas within the UK.
+
 Finally, linked [here](https://geoportal.statistics.gov.uk/datasets/f341dcfd94284d58aba0a84daf2199e9_0) is the MSOA shape file which matches up with the latest MSOA incidence data.
 
 
