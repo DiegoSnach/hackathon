@@ -109,18 +109,18 @@ In order to gain a better understanding of the different area types and their co
 
 We have created two separate APIs for this data, which is concerned with survey responses from UK businesses at the onset of the pandemic. The data was initially gathered from the ONS Business Impact of Coronavirus survey and has been mapped to UK Business Counts data to generate a Business Risk metric. The first API (API Number 2), contains business counts according to survey response. The second that can be found (API Number 19) contains the Business Risk metric at a lower tier local authority level. The former API is the start point and the latter API is the end point of the following notebook which can be accessed [here] and used as a guide for working with this data.
 
-#### Occupations, Employment & Furlough Data
+#### Occupation, Employment & Furlough Data
 
-The following APIs are available for use that contain information on the following:
+In this subsection we detail the various Occupation, Employment & Furlough data that we have compiled and enriched from a variety of sources. A Jupyter Notebook that incorporates this data can be found [here]. Please see this notebook for extra information and example use cases for these data sets.
 
-1) [Furlough Rates] (API Number 7) data gathered from the ONS Business Impact of Coronavirus survey updated throughout the pandemic.
-2) [UK Occupations] (API Number 9)
-3) [UK Occupations By Age] (API Number 8)
-4) [UK_Occupations By Ethnicity] (API Number 11)
-5) [UK Job Type By Industry] (API Number 10)
-6) [UK Public/Private Occupations] (API Number 12) Occupation count at Industry level split between public and private sector.
+**Furlough Rates**, API Number 7, retrieves data gathered from the ONS Business Impact of Coronavirus survey updated throughout the pandemic. The number of reporting industries has changed over time but this data set contains all reported data since the scheme started in late March of 2020.
 
-An example notebook that incorporates all of this data can be found [here].
+**UK Occupations**, API Number 9,
+**UK Occupations By Age**, API Number 8,
+**UK_Occupations By Ethnicity**, API Number 11,
+**UK Job Type By Industry**, API Number 10,
+**UK Public/Private Occupations**, API Number 12, Occupation count at Industry level split between public and private sector.
+
 
 #### UK Companies House Data
 
