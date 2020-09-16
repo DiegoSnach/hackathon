@@ -153,7 +153,7 @@ Single API which returns FTSE100 daily stock data for all 101 stocks which const
 |      11   |      GET    |  https://iqapi.azurewebsites.net/api/UkOccupationByEthnicity    |    Occupations by ethnicity |
 |      10   |      GET    |  https://iqapi.azurewebsites.net/api/UkJobTypeByIndustry        |    UK job types by industry group |
 |      12   |      GET    |  https://iqapi.azurewebsites.net/api/UKPublicPrivateOccupations |    Occupations by public/private split |
-|      ?   |      GET    | https://iqapi.azurewebsites.net/api/ftse  |    |                      FTSE100 Stock Index data from the beginning of 2020 to present.
+|      ?    |      GET    | https://iqapi.azurewebsites.net/api/ftse                        |    FTSE100 Stock Index data from the beginning of 2020 to present |
 
 </details>
 
