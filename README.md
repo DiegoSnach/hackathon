@@ -111,15 +111,19 @@ We have created two separate APIs for this data, which is concerned with survey 
 
 #### Occupation, Employment & Furlough Data
 
-In this subsection we detail the various Occupation, Employment & Furlough data that we have compiled and enriched from a variety of sources. A Jupyter Notebook that incorporates this data can be found [here]. Please see this notebook for extra information and example use cases for these data sets.
+In this subsection we detail the various Occupation, Employment & Furlough data that we have compiled and enriched from a variety of sources. A Jupyter Notebook that incorporates most of this data can be found [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb). Please see this notebook for extra information and example use cases for these data sets.
 
-**Furlough Rates**, API Number 7, retrieves data gathered from the ONS Business Impact of Coronavirus survey updated throughout the pandemic. The number of reporting industries has changed over time but this data set contains all reported data since the scheme started in late March of 2020.
+**Furlough Rates**, API Number 7: This API retrieves data gathered from the ONS Business Impact of Coronavirus survey updated throughout the pandemic. The number of reporting industries has changed over time but this data set contains all reported data since the scheme started in late March of 2020.
 
-**UK Occupations**, API Number 9,
-**UK Occupations By Age**, API Number 8,
-**UK_Occupations By Ethnicity**, API Number 11,
-**UK Job Type By Industry**, API Number 10,
-**UK Public/Private Occupations**, API Number 12, Occupation count at Industry level split between public and private sector.
+**UK Occupations**, API Number 9: The breakdown of UK work force by Industry into the 21 Industry types, includes the number of workers per Industry at LA level.
+
+**UK Job Type By Industry**, API Number 10: The breakdown of each above mentioned Industry into job types (number of occupations within the industry), this is the format that the following three APIs are in, therefore this dataset is used as a tool to map the following 3 API's data to LA. An example of this process can be found in the notebook linked [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb)
+
+**UK Occupations By Age**, API Number 8: Occupation type count at Industry level split by age brackets. The notebook linked above contains analysis using this data although the same methods can also be applied to the data from the following two APIs.
+
+**UK Occupations By Ethnicity**, API Number 11: Occupation type count at Industry level split by ethnicity.
+
+**UK Public/Private Occupations**, API Number 12: Occupation type count at Industry level split between public and private sector.
 
 
 #### UK Companies House Data
@@ -129,6 +133,10 @@ This single API (API Number 1) contains a random sample of approximately 50,000 
 <details open>
 <summary><strong>Section 3 API details</strong></summary>
 <br>
+  
+ #### FTSE 100 Data
+ 
+ 
   
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
@@ -141,6 +149,7 @@ This single API (API Number 1) contains a random sample of approximately 50,000 
 |      11   |      GET    |  https://iqapi.azurewebsites.net/api/UkOccupationByEthnicity    |    Occupations by ethnicity |
 |      10   |      GET    |  https://iqapi.azurewebsites.net/api/UkJobTypeByIndustry        |    UK job types by industry group |
 |      12   |      GET    |  https://iqapi.azurewebsites.net/api/UKPublicPrivateOccupations |    Occupations by public/private split |
+|      ?   |      GET    | https://iqapi.azurewebsites.net/api/ftse  |    |
 
 </details>
 
