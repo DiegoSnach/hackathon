@@ -130,11 +130,15 @@ In this subsection we detail the various Occupation, Employment & Furlough data 
 
 This single API (API Number 1) contains a random sample of approximately 50,000 businesses across the UK which includes their SIC Code (sector/industry) as well as their name and address details.
 
+ #### FTSE 100 Data
+
+Single API which returns FTSE100 daily stock data for all 101 stocks listed on the FTSE100 index along with the overall FTSE100 index. The data is downloaded and updated daily from the Yahoo Finance website. Additionally, this data is augmented with Sector and Subsector information for each stock as classified by the London Stock Exchange. Date range is from January 1 2020 to the most recent date provided by the data source. A notebook explaining how the data is collated and organised can be found here.
+
 <details open>
 <summary><strong>Section 3 API details</strong></summary>
 <br>
   
- #### FTSE 100 Data
+
  
  
   
