@@ -43,7 +43,7 @@ NHS Digital publishes the number of NHS 111 and 999 triages for Covid-19 daily. 
 
 The Office for National Statistics publishes a [mid-yearly report](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland) estimating the population breakdown for every Local Authority in the UK, with several pages of supplementary information. We have collated the key attributes from this report into a table which includes an age breakdown, the median age and population density of each Local Authority.
 
-This data can be accessed through [this API (5)](https://coronavirus.data.gov.uk/cases).
+This data can be accessed through [this API](https://iqapi.azurewebsites.net/api/UKPopulationDemographicData2018).
 
 #### England/Wales age distribution (Local Authority/LSOA level)
 
@@ -51,7 +51,7 @@ The ONS also separately publishes an [age breakdown at LSOA level for England an
 
 The table contains a full breakdown of ages, with columns representing each age up to 90 years old. Residents of 90 years or older are grouped together. 
 
-This data can be accessed via [this API (14)](https://coronavirus.data.gov.uk/cases) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases).
+This data can be accessed via [this API](https://iqapi.azurewebsites.net/api/UkAgeBylandLsoa) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases).
 
 #### England/Wales ethnicity distribution (LSOA level)
 
@@ -61,7 +61,7 @@ The data contains a breakdown of the total population of each LSOA by both race 
 
 Data for other area types can be accessed through the nomisweb site by altering the dropdown filters.
 
-This data can be accessed via [this API (13)](https://coronavirus.data.gov.uk/cases) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases). 
+This data can be accessed via [this API](https://iqapi.azurewebsites.net/api/UkEthnicityByLsoases) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases). 
 
 #### Index of Multiple Deprivation (LSOA level)
 
@@ -71,7 +71,7 @@ The IMD data for England at LSOA level is publicly made available through the [M
 
 Along with an IMD score and ranks for each LSOA in England, the data includes columns representing the variables used in calculating the IMD score. These variables include health indicators, employment percentages, crime levels and average income (amongst others). 
 
-This data can be accessed via [this API (15)](https://coronavirus.data.gov.uk/cases) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases). 
+This data can be accessed via [this API](https://iqapi.azurewebsites.net/api/UKIMDBYLSOA ) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases). 
 
 #### Area type mapping
 
@@ -96,9 +96,10 @@ In order to gain a better understanding of the different area types and their co
   
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
-|           |             |          |          |
-|           |             |          |          |
-|           |             |          |          |
+|5    |GET      |https://iqapi.azurewebsites.net/api/UKPopulationDemographicData2018        |Linked dataset reporting on population demography and density at a lower and upper level Local Authority       |
+|13      |GET             |https://iqapi.azurewebsites.net/api/UkEthnicityByLsoa          |Ethnicity groupings at LSOA level          |
+|14     |GET             |https://iqapi.azurewebsites.net/api/UkAgeBylandLsoa          |Age breakdowns by LSOA          |
+|15     |GET             |https://iqapi.azurewebsites.net/api/UKIMDBYLSOA          |Indices for Multiple Deprivation (IMD) at LSOA level          |
 
 </details>
 
