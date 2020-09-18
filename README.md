@@ -186,16 +186,21 @@ GIS (Geographical Information Systems) data contains geometric information and c
 
 ### 5. Other data
 
+#### England Care Home Postcodes 2016
+
+Single API (API no. 6) which returns names and postcodes of care homes in England as of 2016.
+
 <details open>
 <summary><strong>Section 5 API details</strong></summary>
 <br>
   
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
-|           |             |          |          |
+|      6     |      GET       |    https://iqapi.azurewebsites.net/api/EnglandCareHomes      |    Postcodes of all Care Homes in England as of 2016     |
 |           |             |          |          |
 |           |             |          |          |
 
 </details>
+
 
 
