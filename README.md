@@ -44,15 +44,13 @@ The data can be accessed using [API 6](#6), details in the table below.
 
 The Office for National Statistics publishes a [mid-yearly report](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland) estimating the population breakdown for every Local Authority in the UK, with several pages of supplementary information. We have collated the key attributes from this report into a table which includes an age breakdown, the median age and population density of each Local Authority.
 
-This data can be accessed through [this API](https://iqapi.azurewebsites.net/api/UKPopulationDemographicData2018).
+This data can be accessed through [this API (5)](#5).
 
 #### England/Wales age distribution (Local Authority/LSOA level)
 
 The ONS also separately publishes an [age breakdown at LSOA level for England and Wales](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates) and their corresponding Local Authorities. Since most of our analysis has been conducted at LSOA level, we have created a separate table for this information. Unfortunately, neither Scotland nor Northern Ireland publish data at LSOA level.
 
-The table contains a full breakdown of ages, with columns representing each age up to 90 years old. Residents of 90 years or older are grouped together. 
-
-This data can be accessed via [this API](https://iqapi.azurewebsites.net/api/UkAgeBylandLsoa) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases).
+The table contains a full breakdown of ages, with columns representing each age up to 90 years old. Residents of 90 years or older are grouped together. This data can be accessed via [this API (14)](#14).
 
 #### England/Wales ethnicity distribution (LSOA level)
 
@@ -60,9 +58,7 @@ The source for this data is the most recent publicly available [UK census estima
 
 The data contains a breakdown of the total population of each LSOA by both race and ethnic group. All LSOAs in England and Wales are included. 
 
-Data for other area types can be accessed through the nomisweb site by altering the dropdown filters.
-
-This data can be accessed via [this API](https://iqapi.azurewebsites.net/api/UkEthnicityByLsoases) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases). 
+Data for other area types can be accessed through the nomisweb site by altering the dropdown filters. This data can be accessed via [this API (13)](#13). 
 
 #### Index of Multiple Deprivation (LSOA level)
 
@@ -70,9 +66,7 @@ The Index of Multiple Deprivation (IMD) is a measure of relative deprivation bet
 
 The IMD data for England at LSOA level is publicly made available through the [Ministry of Housing, Communities & Local Government](https://opendatacommunities.org/resource?uri=http%3A%2F%2Fopendatacommunities.org%2Fdata%2Fsocietal-wellbeing%2Fimd2019%2Findices), the most recent data having been collected in 2019.
 
-Along with an IMD score and ranks for each LSOA in England, the data includes columns representing the variables used in calculating the IMD score. These variables include health indicators, employment percentages, crime levels and average income (amongst others). 
-
-This data can be accessed via [this API](https://iqapi.azurewebsites.net/api/UKIMDBYLSOA ) and a notebook using this data can be found [here](https://coronavirus.data.gov.uk/cases). 
+Along with an IMD score and ranks for each LSOA in England, the data includes columns representing the variables used in calculating the IMD score. These variables include health indicators, employment percentages, crime levels and average income (amongst others). This data can be accessed via [this API (15)](#15).
 
 #### Area type mapping
 
