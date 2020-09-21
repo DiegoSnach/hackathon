@@ -29,9 +29,9 @@ NHS Digital publishes the number of NHS 111 and 999 triages for Covid-19 daily. 
   
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
-| <h4 id="login-optional-fields">3</h4>          |GET             |https://iqapi.azurewebsites.net/api/CoronaVirusCase          | Cumulative and daily Covid-19 incidence rates by date and upper and lower level Local Authority          |
-|18           |GET             |https://iqapi.azurewebsites.net/api/UkmsoaCases          | Enriched dataset of weekly Covid-19 incidence rates at Middle Super Output Area (MSOA) level         |
-|6           |GET            |https://iqapi.azurewebsites.net/api/NhsPathwaysCovid19Data          |Enriched dataset reporting on estimated daily NHS 111, 111-online and 999 triages for Covid-19 triages at a Local Authority level          |
+| <h4 id="CoronaVirusCase">3</h4>          |GET             |https://iqapi.azurewebsites.net/api/CoronaVirusCase          | Cumulative and daily Covid-19 incidence rates by date and upper and lower level Local Authority          |
+|<h4 id="UkmsoaCases">18</h4>          |GET             |https://iqapi.azurewebsites.net/api/UkmsoaCases          | Enriched dataset of weekly Covid-19 incidence rates at Middle Super Output Area (MSOA) level         |
+|<h4 id="">6</h4>          |GET            |https://iqapi.azurewebsites.net/api/NhsPathwaysCovid19Data          |Enriched dataset reporting on estimated daily NHS 111, 111-online and 999 triages for Covid-19 triages at a Local Authority level          |
 
 </details>
 
@@ -96,10 +96,10 @@ In order to gain a better understanding of the different area types and their co
   
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
-|5    |GET      |https://iqapi.azurewebsites.net/api/UKPopulationDemographicData2018        |Linked dataset reporting on population demography and density at a lower and upper level Local Authority       |
-|13      |GET             |https://iqapi.azurewebsites.net/api/UkEthnicityByLsoa          |Ethnicity groupings at LSOA level          |
-|14     |GET             |https://iqapi.azurewebsites.net/api/UkAgeBylandLsoa          |Age breakdowns by LSOA          |
-|15     |GET             |https://iqapi.azurewebsites.net/api/UKIMDBYLSOA          |Indices for Multiple Deprivation (IMD) at LSOA level          |
+|<h4 id="UKPopulationDemographicData2018">5</h4>    |GET      |https://iqapi.azurewebsites.net/api/UKPopulationDemographicData2018        |Linked dataset reporting on population demography and density at a lower and upper level Local Authority       |
+|<h4 id="UkEthnicityByLsoa">13</h4>      |GET             |https://iqapi.azurewebsites.net/api/UkEthnicityByLsoa          |Ethnicity groupings at LSOA level          |
+|<h4 id="UkAgeBylandLsoa">14</h4>     |GET             |https://iqapi.azurewebsites.net/api/UkAgeBylandLsoa          |Age breakdowns by LSOA          |
+|<h4 id="UKIMDBYLSOA">15</h4>     |GET             |https://iqapi.azurewebsites.net/api/UKIMDBYLSOA          |Indices for Multiple Deprivation (IMD) at LSOA level          |
 
 </details>
 
@@ -139,22 +139,18 @@ Single API which returns FTSE100 daily stock data for all 101 stocks which const
 <summary><strong>Section 3 API details</strong></summary>
 <br>
   
-
- 
- 
-  
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
-|      1    |      GET    |  https://iqapi.azurewebsites.net/api/CompaniesHouseData         |    Dataset reporting on all UK companies registered with Companies House      |
-|      2    |      GET    |  https://iqapi.azurewebsites.net/api/BusinessConfidence         |    Enriched dataset reporting on relative business confidence across UK regions and business sectors, derived from workforce census data and ONS Covid-19 industry surveys
-|      19   |      GET    |  https://iqapi.azurewebsites.net/api/UKBusinessRiskLTLA         |    Enriched dataset - estimates of business risk by industry sector and age-group at a lower level Local Authority level      |
-|      7    |      GET    |  https://iqapi.azurewebsites.net/api/FurloughRate               |    Dataset reporting on furlough rates as reported periodically by the ONS throughout the pandemic
-|      9    |      GET    |  https://iqapi.azurewebsites.net/api/UKOccupations              |    Occupations groupings |
-|      8    |      GET    |  https://iqapi.azurewebsites.net/api/OccupationByAge            |    Occupations by age breakdown for England |
-|      11   |      GET    |  https://iqapi.azurewebsites.net/api/UkOccupationByEthnicity    |    Occupations by ethnicity |
-|      10   |      GET    |  https://iqapi.azurewebsites.net/api/UkJobTypeByIndustry        |    UK job types by industry group |
-|      12   |      GET    |  https://iqapi.azurewebsites.net/api/UKPublicPrivateOccupations |    Occupations by public/private split |
-|      ?    |      GET    | https://iqapi.azurewebsites.net/api/ftse                        |    FTSE100 Stock Index data from the beginning of 2020 to present |
+|      <h4 id="CompaniesHouseData">1</h4>    |      GET    |  https://iqapi.azurewebsites.net/api/CompaniesHouseData         |    Dataset reporting on all UK companies registered with Companies House      |
+|      <h4 id="BusinessConfidence">2</h4>   |      GET    |  https://iqapi.azurewebsites.net/api/BusinessConfidence         |    Enriched dataset reporting on relative business confidence across UK regions and business sectors, derived from workforce census data and ONS Covid-19 industry surveys
+|      <h4 id="UKBusinessRiskLTLA">19</h4>   |      GET    |  https://iqapi.azurewebsites.net/api/UKBusinessRiskLTLA         |    Enriched dataset - estimates of business risk by industry sector and age-group at a lower level Local Authority level      |
+|      <h4 id="FurloughRate">7</h4>    |      GET    |  https://iqapi.azurewebsites.net/api/FurloughRate               |    Dataset reporting on furlough rates as reported periodically by the ONS throughout the pandemic
+|     <h4 id="UKOccupations">9</h4>    |      GET    |  https://iqapi.azurewebsites.net/api/UKOccupations              |    Occupations groupings |
+|      <h4 id="OccupationByAge">8</h4>    |      GET    |  https://iqapi.azurewebsites.net/api/OccupationByAge            |    Occupations by age breakdown for England |
+|      <h4 id="UkOccupationByEthnicity">11</h4>   |      GET    |  https://iqapi.azurewebsites.net/api/UkOccupationByEthnicity    |    Occupations by ethnicity |
+|      <h4 id="UkJobTypeByIndustry">10</h4>   |      GET    |  https://iqapi.azurewebsites.net/api/UkJobTypeByIndustry        |    UK job types by industry group |
+|      <h4 id="UKPublicPrivateOccupations">12</h4>   |      GET    |  https://iqapi.azurewebsites.net/api/UKPublicPrivateOccupations |    Occupations by public/private split |
+|      <h4 id="ftse  ">?</h4>    |      GET    | https://iqapi.azurewebsites.net/api/ftse                        |    FTSE100 Stock Index data from the beginning of 2020 to present |
 
 </details>
 
@@ -171,19 +167,6 @@ GIS (Geographical Information Systems) data contains geometric information and c
 4) Finally, linked [here](https://geoportal.statistics.gov.uk/datasets/f341dcfd94284d58aba0a84daf2199e9_0) is the MSOA shape file which matches up with the latest MSOA incidence data.
 
 
-<details open>
-<summary><strong>Section 4 API details</strong></summary>
-<br>
-  
-| API Number | Method | Endpoint | Description |
-|-----------|-------------|----------|----------|
-|           |             |          |          |
-|           |             |          |          |
-|           |             |          |          |
-
-</details>
-
-
 ### 5. Other data
 
 #### England Care Home Postcodes 2016
@@ -196,7 +179,7 @@ Single API (API no. 6) which returns names and postcodes of care homes in Englan
   
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
-|      6     |      GET       |    https://iqapi.azurewebsites.net/api/EnglandCareHomes      |    Postcodes of all Care Homes in England as of 2016     |
+|      <h4 id="EnglandCareHomes">6</h4>      |      GET       |    https://iqapi.azurewebsites.net/api/EnglandCareHomes      |    Postcodes of all Care Homes in England as of 2016     |
 |           |             |          |          |
 |           |             |          |          |
 
