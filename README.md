@@ -109,32 +109,34 @@ In order to gain a better understanding of the different area types and their co
 
 #### Business Confidence March/April 2020
 
-We have created two separate APIs for this data, which is concerned with survey responses from UK businesses at the onset of the pandemic. The data was initially gathered from the ONS Business Impact of Coronavirus survey and has been mapped to UK Business Counts data to generate a Business Risk metric. The first API (API Number 2), contains business counts according to survey response. The second that can be found (API Number 19) contains the Business Risk metric at a lower tier local authority level. The former API is the start point and the latter API is the end point of the following notebook which can be accessed [here] and used as a guide for working with this data.
+We have created two separate APIs for this data, which is concerned with survey responses from UK businesses at the onset of the pandemic. The data was initially gathered from the ONS Business Impact of Coronavirus survey and has been mapped to UK Business Counts data to generate a Business Risk metric. The first API (API Number 2), contains business counts according to survey response. The second that can be found ([API Number 19](#19)) contains the Business Risk metric at a lower tier local authority level. The former API is the start point and the latter API is the end point of the following notebook which can be accessed [here] and used as a guide for working with this data.
 
 #### Occupation, Employment & Furlough Data
 
 In this subsection we detail the various Occupation, Employment & Furlough data that we have compiled and enriched from a variety of sources. A Jupyter Notebook that incorporates most of this data can be found [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb). Please see this notebook for extra information and example use cases for these data sets.
 
-**Furlough Rates**, API Number 7: This API retrieves data gathered from the ONS Business Impact of Coronavirus survey updated throughout the pandemic. The number of reporting industries has changed over time but this data set contains all reported data since the scheme started in late March of 2020.
+**Furlough Rates**, [API Number 7](#7): This API retrieves data gathered from the ONS Business Impact of Coronavirus survey updated throughout the pandemic. The number of reporting industries has changed over time but this data set contains all reported data since the scheme started in late March of 2020.
 
-**UK Occupations**, API Number 9: The breakdown of UK work force by Industry into the 21 Industry types, includes the number of workers per Industry at LA level.
+**UK Occupations**, [API Number 9](#9): The breakdown of UK work force by Industry into the 21 Industry types, includes the number of workers per Industry at LA level.
 
-**UK Job Type By Industry**, API Number 10: The breakdown of each above mentioned Industry into job types (number of occupations within the industry), this is the format that the following three APIs are in, therefore this dataset is used as a tool to map the following 3 API's data to LA. An example of this process can be found in the notebook linked [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb)
+**UK Job Type By Industry**, [API Number 10](#10): The breakdown of each above mentioned Industry into job types (number of occupations within the industry), this is the format that the following three APIs are in, therefore this dataset is used as a tool to map the following 3 API's data to LA. An example of this process can be found in the notebook linked [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb)
 
-**UK Occupations By Age**, API Number 8: Occupation type count at Industry level split by age brackets. The notebook linked above contains analysis using this data although the same methods can also be applied to the data from the following two APIs.
+**UK Occupations By Age**, [API Number 8](#8): Occupation type count at Industry level split by age brackets. The notebook linked above contains analysis using this data although the same methods can also be applied to the data from the following two APIs.
 
-**UK Occupations By Ethnicity**, API Number 11: Occupation type count at Industry level split by ethnicity.
+**UK Occupations By Ethnicity**, [API Number 11](#11): Occupation type count at Industry level split by ethnicity.
 
-**UK Public/Private Occupations**, API Number 12: Occupation type count at Industry level split between public and private sector.
+**UK Public/Private Occupations**, [API Number 12](#12): Occupation type count at Industry level split between public and private sector.
 
 
 #### UK Companies House Data
 
-This single API (API Number 1) contains a random sample of approximately 50,000 businesses across the UK which includes their SIC Code (sector/industry) as well as their name and address details.
+This single API a, [API 1](#1), contains a random sample of approximately 50,000 **IS THIS NUMBER CORRECT??** businesses across the UK which includes their SIC Code (sector/industry) as well as their name and address details, if you would like to download the full range of data it can be found [here](ask ben for link).
 
  #### FTSE 100 Data
 
-Single API which returns FTSE100 daily stock data for all 101 stocks which constitute the FTSE100 index, along with the FTSE100 index itself. The data is downloaded and updated daily from the Yahoo Finance website. Additionally, this data is augmented with Sector and Subsector information for each stock as classified by the London Stock Exchange. Date range is from January 1 2020 to the most recent date provided by the data source. A notebook explaining how the data is collated and organised can be found here.
+Single API which returns FTSE100 daily stock data for all 101 stocks which constitute the FTSE100 index, along with the FTSE100 index itself. The data is downloaded and updated daily from the Yahoo Finance website. Additionally, this data is augmented with Sector and Subsector information for each stock as classified by the London Stock Exchange. Date range is from January 1 2020 to the most recent date provided by the data source. A notebook explaining how the data is collated and organised can be found [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/FTSE100%20Hackathon%20Notebook.ipynb).
+
+The data can be accessed via [API 20](#20), found below.
 
 <details open>
 <summary><strong>Section 3 API details</strong></summary>
@@ -151,7 +153,7 @@ Single API which returns FTSE100 daily stock data for all 101 stocks which const
 |      <h4 id="UkOccupationByEthnicity">11</h4>   |      GET    |  https://iqapi.azurewebsites.net/api/UkOccupationByEthnicity    |    Occupations by ethnicity |
 |      <h4 id="UkJobTypeByIndustry">10</h4>   |      GET    |  https://iqapi.azurewebsites.net/api/UkJobTypeByIndustry        |    UK job types by industry group |
 |      <h4 id="UKPublicPrivateOccupations">12</h4>   |      GET    |  https://iqapi.azurewebsites.net/api/UKPublicPrivateOccupations |    Occupations by public/private split |
-|      <h4 id="ftse  ">?</h4>    |      GET    | https://iqapi.azurewebsites.net/api/ftse                        |    FTSE100 Stock Index data from the beginning of 2020 to present |
+|      <h4 id="ftse">20</h4>    |      GET    | https://iqapi.azurewebsites.net/api/ftse                        |    FTSE100 Stock Index data from the beginning of 2020 to present |
 
 </details>
 
