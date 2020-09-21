@@ -72,17 +72,17 @@ Along with an IMD score and ranks for each LSOA in England, the data includes co
 
 Several different area types are present within our data and sometimes it is beneficial to be able to map between them. In order to facilitate this, here are some links to downloads from the ONS website:
 
-[This link](https://geoportal.statistics.gov.uk/datasets/9f4c270148014f20bf24abff9a7aef62_0) is for mapping from LSOA to UTLA (Upper Tier Local Authority)
+* [This link](https://geoportal.statistics.gov.uk/datasets/9f4c270148014f20bf24abff9a7aef62_0) is for mapping from LSOA to UTLA (Upper Tier Local Authority)
 
-[This link](https://geoportal.statistics.gov.uk/datasets/lower-tier-local-authority-to-upper-tier-local-authority-april-2019-lookup-in-england-and-wales) is for mapping from LTLA (Lower Tier Local Authority) to UTLA
+* [This link](https://geoportal.statistics.gov.uk/datasets/lower-tier-local-authority-to-upper-tier-local-authority-april-2019-lookup-in-england-and-wales) is for mapping from LTLA (Lower Tier Local Authority) to UTLA
 
-[This link](https://geoportal.statistics.gov.uk/datasets/postcode-to-output-area-to-lower-layer-super-output-area-to-middle-layer-super-output-area-to-local-authority-district-february-2018-lookup-in-the-uk) is for mapping between postcode, LSOA, MSOA (Middle layer Super Output Area) and LTLA
+* [This link](https://geoportal.statistics.gov.uk/datasets/postcode-to-output-area-to-lower-layer-super-output-area-to-middle-layer-super-output-area-to-local-authority-district-february-2020-lookup-in-the-uk) is for mapping between postcode, LSOA, MSOA (Middle layer Super Output Area) and LTLA
 
 In order to gain a better understanding of the different area types and their corresponding coding systems, here are two supplementary links:
 
-[This link](https://en.wikipedia.org/wiki/ONS_coding_system) explains the ONS coding system (LSOA/MSOA)
+* [This link](https://en.wikipedia.org/wiki/ONS_coding_system) explains the ONS coding system (LSOA/MSOA)
 
-[This link](https://lgiu.org/local-government-facts-and-figures-england/#:~:text=In%20some%20areas%20of%20England,a%20single%20unitary%20authority%20instead.) explains the local government structure of the UK (LTLA/UTLA (In the data unitary councils appear as both lower and upper tier))
+* [This link](https://lgiu.org/local-government-facts-and-figures-england/#:~:text=In%20some%20areas%20of%20England,a%20single%20unitary%20authority%20instead.) explains the local government structure of the UK (LTLA/UTLA (In the data unitary councils appear as both lower and upper tier))
 
 
 <details open>
@@ -109,17 +109,17 @@ We have created two separate APIs for this data, which is concerned with survey 
 
 In this subsection we detail the various Occupation, Employment & Furlough data that we have compiled and enriched from a variety of sources. A Jupyter Notebook that incorporates most of this data can be found [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb). Please see this notebook for extra information and example use cases for these data sets.
 
-**Furlough Rates**, [API Number 7](#7): This API retrieves data gathered from the ONS Business Impact of Coronavirus survey updated throughout the pandemic. The number of reporting industries has changed over time but this data set contains all reported data since the scheme started in late March of 2020.
+* **Furlough Rates**, [API Number 7](#7): This API retrieves data gathered from the ONS Business Impact of Coronavirus survey updated throughout the pandemic. The number of reporting industries has changed over time but this data set contains all reported data since the scheme started in late March of 2020.
 
-**UK Occupations**, [API Number 9](#9): The breakdown of UK work force by Industry into the 21 Industry types, includes the number of workers per Industry at LA level.
+* **UK Occupations**, [API Number 9](#9): The breakdown of UK work force by Industry into the 21 Industry types, includes the number of workers per Industry at LA level.
 
-**UK Job Type By Industry**, [API Number 10](#10): The breakdown of each above mentioned Industry into job types (number of occupations within the industry), this is the format that the following three APIs are in, therefore this dataset is used as a tool to map the following 3 API's data to LA. An example of this process can be found in the notebook linked [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb)
+* **UK Job Type By Industry**, [API Number 10](#10): The breakdown of each above mentioned Industry into job types (number of occupations within the industry), this is the format that the following three APIs are in, therefore this dataset is used as a tool to map the following 3 API's data to LA. An example of this process can be found in the notebook linked [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb)
 
-**UK Occupations By Age**, [API Number 8](#8): Occupation type count at Industry level split by age brackets. The notebook linked above contains analysis using this data although the same methods can also be applied to the data from the following two APIs.
+* **UK Occupations By Age**, [API Number 8](#8): Occupation type count at Industry level split by age brackets. The notebook linked above contains analysis using this data although the same methods can also be applied to the data from the following two APIs.
 
-**UK Occupations By Ethnicity**, [API Number 11](#11): Occupation type count at Industry level split by ethnicity.
+* **UK Occupations By Ethnicity**, [API Number 11](#11): Occupation type count at Industry level split by ethnicity.
 
-**UK Public/Private Occupations**, [API Number 12](#12): Occupation type count at Industry level split between public and private sector.
+* **UK Public/Private Occupations**, [API Number 12](#12): Occupation type count at Industry level split between public and private sector.
 
 
 #### UK Companies House Data
