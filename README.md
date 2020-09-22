@@ -11,7 +11,7 @@ All the data that collectively form our Covid-19 dataset are listed below, with 
 #### Daily incidence rates (Local Authority level)
 Reporting daily on the number of [newly recorded Covid-19 cases](https://coronavirus.data.gov.uk/cases) by Local Authority. This data also reports the Local Authority population size, enabling the incidence rate (typically per 10,000 or per 100,000 people) of Covid-19 to be derived.
 
-This data can be accessed via [API number 3](#3), located in the table at the end of the section, a notebook with example analysis can be found [here](https://www.tablesgenerator.com/markdown_tables)
+This data can be accessed via [API number 3](#3), located in the table at the end of the section, a notebook with example analysis can be found *[here](https://www.tablesgenerator.com/markdown_tables)*.
 
 #### Daily incidence rates (Middle Layer Super Output Area level)
 Reporting daily on the number of newly recorded Covid-19 cases at the Middle Layer Super Output Area (MSOA), the data can be found within [API 18](#18). This data also reports the MSOA population size, enabling the incidence rate (typically per 10,000 or per 100,000 people) of Covid-19 to be derived. The data is updated daily, with a new column added each week, the `latest_7_days` column contains the latest data most of the time, if the column is null then the latest data is contained within the latest `wk_XX` column. 
@@ -155,11 +155,11 @@ The data can be accessed via [API 20](#20), found below.
 
 GIS (Geographical Information Systems) data contains geometric information and can be used to draw maps. There were a number of GIS data sources we used and they are listed below:
 
-1) The geojson file found [here](https://coronavirus.data.gov.uk/cases) was used in a lot of the work we carried out including the [business risk notebook](https://coronavirus.data.gov.uk/cases) and the [furlough rates notebook](https://coronavirus.data.gov.uk/cases). It contains geometric data for the lower tier local authorities throughout the UK.
+1) The geojson file found *[here](https://coronavirus.data.gov.uk/cases)* was used in a lot of the work we carried out including the [business risk notebook](https://coronavirus.data.gov.uk/cases) and the [furlough rates notebook](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb). It contains geometric data for the lower tier local authorities throughout the UK.
 
-2) The data found [here](https://datashare.is.ed.ac.uk/handle/10283/2546) was used in the [vaccine distribution notebook](https://coronavirus.data.gov.uk/cases). It is a shape file with LSOA boundaries for England and Wales.
+2) The data found [here](https://datashare.is.ed.ac.uk/handle/10283/2546) was used in the [vaccine distribution notebook](https://github.com/hldawe/hackathon/blob/master/Notebooks/Vaccine%20Distribution%20using%20the%20Covid-19%20Dataset%20.ipynb). It is a shape file with LSOA boundaries for England and Wales.
 
-3) The [care homes notebook](https://coronavirus.data.gov.uk/cases) used a shape file found [here](https://geoportal.statistics.gov.uk/datasets/b216b4c8a4e74f6fb692a1785255d777_0?geometry=-89.275%2C33.725%2C132.736%2C69.287). This link contains shape files for different types of areas within the UK.
+3) The *[care homes notebook](https://coronavirus.data.gov.uk/cases)* used a shape file found [here](https://geoportal.statistics.gov.uk/datasets/b216b4c8a4e74f6fb692a1785255d777_0?geometry=-89.275%2C33.725%2C132.736%2C69.287). This link contains shape files for different types of areas within the UK.
 
 4) Finally, linked [here](https://geoportal.statistics.gov.uk/datasets/f341dcfd94284d58aba0a84daf2199e9_0) is the MSOA shape file which matches up with the latest MSOA incidence data.
 
@@ -168,7 +168,7 @@ GIS (Geographical Information Systems) data contains geometric information and c
 
 #### England Care Home Postcodes 2016
 
-Single API (API no. 6) which returns names and postcodes of care homes in England as of 2016.
+Single API ([API no. 6](#20)) which returns names and postcodes of care homes in England as of 2016.
 
 <details open>
 <summary><strong>Section 5 API details</strong></summary>
