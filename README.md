@@ -181,8 +181,8 @@ The NHS publishes anonymised data about the drugs prescribed by GPs. Openprescri
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
 |      <h4 id="EnglandCareHomes">6</h4>      |      GET       |    https://iqapi.azurewebsites.net/api/EnglandCareHomes      |    Postcodes of all Care Homes in England as of 2016     |
-|           |             |          |          |
-|           |             |          |          |
+|     ?      |       GET      |    https://iqapi.azurewebsites.net/api/PrescribingDataUTLA      |     Enriched dataset of estimates of prescribing costs for differnet morbidity groups at a upper level Local Authority level     |
+|     ?     |       GET      |      https://iqapi.azurewebsites.net/api/PrescribingDataLTLA    |      Enriched dataset of estimates of prescribing costs for differnet morbidity groups at a lower level Local Authority level    |
 
 </details>
 
