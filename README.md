@@ -170,6 +170,10 @@ GIS (Geographical Information Systems) data contains geometric information and c
 
 Single API ([API no. 6](#20)) which returns names and postcodes of care homes in England as of 2016.
 
+#### Prescribing Data
+
+The NHS publishes anonymised data about the drugs prescribed by GPs. Openprescribing.net compiles this data and provides an API so it can be accessed. We used it to gather data that showed the monthly amount spent on different categories of drugs for each CCG in England in 2020. We then used this data to develop two datasets, one at upper tier local authority level and one at lower tier local authority level. They both showcased this data and included enriched fields such as the cost per 1000 people for each category of drug. These datasets can be accessed using API number ? and API number ? and the process of developing these as well as some initial analysis is shown in the notebook linked here.
+
 <details open>
 <summary><strong>Section 5 API details</strong></summary>
 <br>
