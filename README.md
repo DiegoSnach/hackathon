@@ -1,10 +1,10 @@
 # Data guide to the UST Global Hackathon on the 6th October 2020
 
 ## Overview
-This guide provides an overview of all the data sources within the Covid-19 dataset used for the hackathon. To be used in conjuction with the associated API guides and notebooks containing examples of data innovation with the dataset.
+This guide provides an overview of all the data sources within the Covid-19 dataset used for the hackathon. To be used in conjuction with the associated notebooks containing examples of data innovation with the dataset and user guides.
 
 ## List of datasets within the Covid-19 dataset
-All the data that collectively form our Covid-19 dataset are listed below, with sources and where and how we have enriched this data.
+All the data that collectively forms our Covid-19 dataset are listed below, with sources and where and how we have enriched this data. There are also links to datasets that we have used but are not hosting, these generally include publicly available mapping datasets and GIS shape files, further details can be found in section 2 and 4 respectively.
 
 ### 1. Covid-19 incidence related data
 
