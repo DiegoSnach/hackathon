@@ -172,7 +172,7 @@ Single API ([API no. 6](#6)) which returns names and postcodes of care homes in 
 
 #### Prescribing Data
 
-The NHS publishes anonymised data about the drugs prescribed by GPs. Openprescribing.net compiles this data and provides an API so it can be accessed. We used it to gather data that showed the monthly amount spent on different categories of drugs for each CCG in England in 2020. We then used this data to develop two datasets, one at upper tier local authority level and one at lower tier local authority level. They both showcased this data and included enriched fields such as the cost per 1000 people for each category of drug. These datasets can be accessed using [API number 15](#15) and [API number 16](#16) and the process of developing these as well as some initial analysis is shown in the notebook linked here.
+The NHS publishes anonymised data about the drugs prescribed by GPs. Openprescribing.net compiles this data and provides an API so it can be accessed. We used it to gather data that showed the monthly amount spent on different categories of drugs for each CCG in England in 2020. We then used this data to develop two datasets, one at upper tier local authority level and one at lower tier local authority level. They both showcased this data and included enriched fields such as the cost per 1000 people for each category of drug. These datasets can be accessed using [API number 16](#16) and [API number 17](#17) and the process of developing these as well as some initial analysis is shown in the notebook linked here.
 
 <details open>
 <summary><strong>Section 5 API details</strong></summary>
@@ -181,8 +181,8 @@ The NHS publishes anonymised data about the drugs prescribed by GPs. Openprescri
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
 |      <h4 id="EnglandCareHomes">6</h4>      |      GET       |    https://iqapi.azurewebsites.net/api/EnglandCareHomes      |    Postcodes of all Care Homes in England as of 2016     |
-|     <h4 id="PrescribingDataUTLA">15</h4>      |       GET      |    https://iqapi.azurewebsites.net/api/PrescribingDataUTLA      |     Enriched dataset of estimates of prescribing costs for differnet morbidity groups at a upper level Local Authority level     |
-|     <h4 id="PrescribingDataLTLA">16</h4>     |       GET      |      https://iqapi.azurewebsites.net/api/PrescribingDataLTLA    |      Enriched dataset of estimates of prescribing costs for differnet morbidity groups at a lower level Local Authority level    |
+|     <h4 id="PrescribingDataUTLA">16</h4>      |       GET      |    https://iqapi.azurewebsites.net/api/PrescribingDataUTLA      |     Enriched dataset of estimates of prescribing costs for differnet morbidity groups at a upper level Local Authority level     |
+|     <h4 id="PrescribingDataLTLA">17</h4>     |       GET      |      https://iqapi.azurewebsites.net/api/PrescribingDataLTLA    |      Enriched dataset of estimates of prescribing costs for differnet morbidity groups at a lower level Local Authority level    |
 
 </details>
 
