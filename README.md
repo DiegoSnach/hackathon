@@ -155,13 +155,13 @@ The data can be accessed via [API 20](#20), found below.
 
 GIS (Geographical Information Systems) data contains geometric information and can be used to draw maps. There were a number of GIS data sources we used and they are listed below:
 
-1) The geojson file found *[here](https://coronavirus.data.gov.uk/cases)* was used in a lot of the work we carried out including the [business risk notebook](https://coronavirus.data.gov.uk/cases) and the [furlough rates notebook](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb). It contains geometric data for the lower tier local authorities throughout the UK.
+1) The geojson file found *[here](https://coronavirus.data.gov.uk/cases)* was used in a lot of the work we carried out including the [business risk notebook](https://github.com/hldawe/hackathon/blob/master/Notebooks/Hackathon%20-%20Business%20Confidence%20Data.ipynb) and the [furlough rates notebook](https://github.com/hldawe/hackathon/blob/master/Notebooks/Furlough%20Rates%20and%20Business%20Performance.ipynb). It contains geometric data for the lower tier local authorities throughout the UK.
 
-2) The data found [here](https://datashare.is.ed.ac.uk/handle/10283/2546) was used in the [vaccine distribution notebook](https://github.com/hldawe/hackathon/blob/master/Notebooks/Vaccine%20Distribution%20using%20the%20Covid-19%20Dataset%20.ipynb). It is a shape file with LSOA boundaries for England and Wales.
+2) The data found [here](https://datashare.is.ed.ac.uk/handle/10283/2546) is used in the [vaccine distribution notebook](https://github.com/hldawe/hackathon/blob/master/Notebooks/Vaccine%20Distribution%20using%20the%20Covid-19%20Dataset%20.ipynb). It is a shape file with LSOA boundaries for England and Wales.
 
-3) The *[care homes notebook](https://coronavirus.data.gov.uk/cases)* used a shape file found [here](https://geoportal.statistics.gov.uk/datasets/b216b4c8a4e74f6fb692a1785255d777_0?geometry=-89.275%2C33.725%2C132.736%2C69.287). This link contains shape files for different types of areas within the UK.
+3) The [care homes notebook](https://github.com/hldawe/hackathon/blob/master/Notebooks/Hackathon%20-%20Care%20Home%20Risk.ipynb) uses a shape file found [here](https://geoportal.statistics.gov.uk/datasets/b216b4c8a4e74f6fb692a1785255d777_0?geometry=-89.275%2C33.725%2C132.736%2C69.287). This link contains shape files for different types of areas within the UK.
 
-4) Finally, linked [here](https://geoportal.statistics.gov.uk/datasets/f341dcfd94284d58aba0a84daf2199e9_0) is the MSOA shape file which matches up with the latest MSOA incidence data.
+4) Finally, linked [here](https://geoportal.statistics.gov.uk/datasets/f341dcfd94284d58aba0a84daf2199e9_0) is the MSOA shape file which matches up with the latest MSOA incidence data, used in the [MSOA Incidence notebook](https://github.com/hldawe/hackathon/blob/master/Notebooks/MSOA%20Incidence%20Notebook.ipynb).
 
 
 ### 5. Other data
