@@ -21,7 +21,7 @@ This data can be used in conjuction with any other dataset reporting at MSOA lev
 #### Daily NHS 111 and 999 Covid-19 Triage rates (Local Authority level)
 NHS Digital publishes the number of NHS 111 and 999 triages for Covid-19 daily. Reporting by age and gender at a Clinical Commissioning Group (CCG) level, we have attributed these figures at a Local Authority level to make them comparable with other incidence and demography data and also the business and economic metrics we outline in section 3 below.
 
-The data can be accessed using [API 6](#6), details in the table below.
+The data can be accessed using [API 4](#4), details in the table below.
 
 
 <details open>
@@ -32,7 +32,7 @@ The data can be accessed using [API 6](#6), details in the table below.
 |-----------|-------------|----------|----------|
 | <h4 id="CoronaVirusCase">3</h4>          |GET             |https://iqapi.azurewebsites.net/api/CoronaVirusCase          | Cumulative and daily Covid-19 incidence rates by date and upper and lower level Local Authority          |
 |<h4 id="UkmsoaCases">18</h4>          |GET             |https://iqapi.azurewebsites.net/api/UkmsoaCases          | Enriched dataset of weekly Covid-19 incidence rates at Middle Super Output Area (MSOA) level         |
-|<h4 id="">6</h4>          |GET            |https://iqapi.azurewebsites.net/api/NhsPathwaysCovid19Data          |Enriched dataset reporting on estimated daily NHS 111, 111-online and 999 triages for Covid-19 triages at a Local Authority level          |
+|<h4 id="NhsPathwaysCovid19Data">4</h4>          |GET            |https://iqapi.azurewebsites.net/api/NhsPathwaysCovid19Data          |Enriched dataset reporting on estimated daily NHS 111, 111-online and 999 triages for Covid-19 triages at a Local Authority level          |
 
 </details>
 
