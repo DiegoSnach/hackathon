@@ -11,12 +11,12 @@ All the data that collectively forms our Covid-19 dataset are listed below, with
 #### Daily incidence rates (Local Authority level)
 Reporting daily on the number of [newly recorded Covid-19 cases](https://coronavirus.data.gov.uk/cases) by Local Authority. This data also reports the Local Authority population size, enabling the incidence rate (typically per 10,000 or per 100,000 people) of Covid-19 to be derived.
 
-This data can be accessed via [API number 3](#3), located in the table at the end of the section, a notebook with example analysis can be found *[here](https://www.tablesgenerator.com/markdown_tables)*.
+This data can be accessed via [API number 3](#3), located in the table at the end of the section.
 
 #### Daily incidence rates (Middle Layer Super Output Area level)
-Reporting daily on the number of newly recorded Covid-19 cases at the Middle Layer Super Output Area (MSOA), the data can be found within [API 18](#18). This data also reports the MSOA population size, enabling the incidence rate (typically per 10,000 or per 100,000 people) of Covid-19 to be derived. The data is updated daily, with a new column added each week, the `latest_7_days` column contains the latest data most of the time, if the column is null then the latest data is contained within the latest `wk_XX` column. 
+Reporting daily on the number of newly recorded Covid-19 cases at the Middle Layer Super Output Area (MSOA), the data can be found within [API 18](#18). The data is updated daily, with a new column added each week, the `latest_7_days` column contains the latest data most of the time, if the column is null then the latest data is contained within the latest `wk_XX` column. 
 
-This data can be used in conjuction with any other dataset reporting at MSOA level, including the geojson that is available in section 4 below.
+This data can be used in conjuction with any other dataset reporting at MSOA level, including the geojson that is available in section 4 below, a notebook with example analysis can be found [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/MSOA%20Incidence%20Notebook.ipynb).
 
 #### Daily NHS 111 and 999 Covid-19 Triage rates (Local Authority level)
 NHS Digital publishes the number of NHS 111 and 999 triages for Covid-19 daily. Reporting by age and gender at a Clinical Commissioning Group (CCG) level, we have attributed these figures at a Local Authority level to make them comparable with other incidence and demography data and also the business and economic metrics we outline in section 3 below.
@@ -168,11 +168,11 @@ GIS (Geographical Information Systems) data contains geometric information and c
 
 #### England Care Home Postcodes 2016
 
-Single API ([API no. 6](#20)) which returns names and postcodes of care homes in England as of 2016.
+Single API ([API no. 6](#6)) which returns names and postcodes of care homes in England as of 2016.
 
 #### Prescribing Data
 
-The NHS publishes anonymised data about the drugs prescribed by GPs. Openprescribing.net compiles this data and provides an API so it can be accessed. We used it to gather data that showed the monthly amount spent on different categories of drugs for each CCG in England in 2020. We then used this data to develop two datasets, one at upper tier local authority level and one at lower tier local authority level. They both showcased this data and included enriched fields such as the cost per 1000 people for each category of drug. These datasets can be accessed using API number ? and API number ? and the process of developing these as well as some initial analysis is shown in the notebook linked here.
+The NHS publishes anonymised data about the drugs prescribed by GPs. Openprescribing.net compiles this data and provides an API so it can be accessed. We used it to gather data that showed the monthly amount spent on different categories of drugs for each CCG in England in 2020. We then used this data to develop two datasets, one at upper tier local authority level and one at lower tier local authority level. They both showcased this data and included enriched fields such as the cost per 1000 people for each category of drug. These datasets can be accessed using [API number 15](#15) and [API number 16](#16) and the process of developing these as well as some initial analysis is shown in the notebook linked here.
 
 <details open>
 <summary><strong>Section 5 API details</strong></summary>
@@ -181,8 +181,8 @@ The NHS publishes anonymised data about the drugs prescribed by GPs. Openprescri
 | API Number | Method | Endpoint | Description |
 |-----------|-------------|----------|----------|
 |      <h4 id="EnglandCareHomes">6</h4>      |      GET       |    https://iqapi.azurewebsites.net/api/EnglandCareHomes      |    Postcodes of all Care Homes in England as of 2016     |
-|     ?      |       GET      |    https://iqapi.azurewebsites.net/api/PrescribingDataUTLA      |     Enriched dataset of estimates of prescribing costs for differnet morbidity groups at a upper level Local Authority level     |
-|     ?     |       GET      |      https://iqapi.azurewebsites.net/api/PrescribingDataLTLA    |      Enriched dataset of estimates of prescribing costs for differnet morbidity groups at a lower level Local Authority level    |
+|     <h4 id="PrescribingDataUTLA">15</h4>      |       GET      |    https://iqapi.azurewebsites.net/api/PrescribingDataUTLA      |     Enriched dataset of estimates of prescribing costs for differnet morbidity groups at a upper level Local Authority level     |
+|     <h4 id="PrescribingDataLTLA">16</h4>     |       GET      |      https://iqapi.azurewebsites.net/api/PrescribingDataLTLA    |      Enriched dataset of estimates of prescribing costs for differnet morbidity groups at a lower level Local Authority level    |
 
 </details>
 
