@@ -172,7 +172,7 @@ Single API ([API no. 6](#6)) which returns names and postcodes of care homes in 
 
 #### Prescribing Data
 
-The NHS publishes anonymised data about the drugs prescribed by GPs. Openprescribing.net compiles this data and provides an API so it can be accessed. We used it to gather data that showed the monthly amount spent on different categories of drugs for each CCG in England in 2020. We then used this data to develop two datasets, one at upper tier local authority level and one at lower tier local authority level. They both showcased this data and included enriched fields such as the cost per 1000 people for each category of drug. These datasets can be accessed using [API number 16](#16) and [API number 17](#17) and the process of developing these as well as some initial analysis is shown in the notebook linked here.
+The NHS publishes anonymised data about the drugs prescribed by GPs. Openprescribing.net compiles this data and provides an API so it can be accessed. We used it to gather data that showed the monthly amount spent on different categories of drugs for each CCG in England in 2020. We then used this data to develop two datasets, one at upper tier local authority level and one at lower tier local authority level. They both showcased this data and included enriched fields such as the cost per 1000 people for each category of drug. These datasets can be accessed using [API number 16](#16) and [API number 17](#17) and the process of developing these as well as some initial analysis is shown in the notebook linked [here](https://github.com/hldawe/hackathon/blob/master/Notebooks/PrescribingData.ipynb).
 
 <details open>
 <summary><strong>Section 5 API details</strong></summary>
