@@ -3,6 +3,9 @@
 ## Overview
 This guide provides an overview of all the data sources within the Covid-19 dataset used for the hackathon. To be used in conjuction with the associated notebooks containing examples of data innovation with the dataset and user guides.
 
+## List of Jupyter notebooks
+We have uploaded a selection of Jupyter notebooks for inspiration during the Hackathon, feel free to download these from this github repository and run them yourselves. Here is a link to the list of notebooks with links to the rendered version using [nbviewer](https://nbviewer.jupyter.org/github/hldawe/hackathon/tree/master/Notebooks/).
+
 ## List of datasets within the Covid-19 dataset
 All the data that collectively forms our Covid-19 dataset are listed below, with sources and where and how we have enriched this data. There are also links to datasets that we have used but are not hosting, these generally include publicly available mapping datasets and GIS shape files, further details can be found in section 2 and 4 respectively.
 
