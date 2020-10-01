@@ -127,7 +127,7 @@ In this subsection we detail the various Occupation, Employment & Furlough data 
 
 #### UK Companies House Data
 
-This single API a, [API 1](#1), contains a random sample of approximately 1% of the total number of businesses across the UK, including SIC Code (sector/industry) as well as name and address details, if you would like to download the full range of data it can be found *[here](ask ben for link)*.
+This single API a, [API 1](#1), contains a random sample of approximately 1% of the total number of businesses across the UK, including SIC Code (sector/industry) as well as name and address details, if you would like to download the full range of data it can be found [here](http://download.companieshouse.gov.uk/en_output.html).
 
  #### FTSE 100 Data
 
